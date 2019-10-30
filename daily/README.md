@@ -4,6 +4,8 @@
 
 ####[2019-10-30](./2019-10-30.md)
 
+* [【译】一文洞察 Chrome DevTools 近半年新增了哪些功能](https://www.zoo.team/article/chrome-devtools)
+
 * [Server-X：一款可能提升你十倍工作效率的工具](https://juejin.im/post/5dad208ef265da5b7d692340#heading-7)
 * [面向大型工作台的微前端解决方案 icestark](https://zhuanlan.zhihu.com/p/88449415)
 
