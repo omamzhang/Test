@@ -1,6 +1,33 @@
 # 每日早读
 
+`Flutter` `React` `Node` `Material Design` `WebRTC` `数据结构` `设计模式`
 
+#### [2019-11-15 周五](./2019-11-15.md)
+
+* [css的未来已来](https://juejin.im/post/5dcb9c126fb9a04aba52bdf4) `css发展史` `css in js`
+
+#### [2019-11-14  周四](./2019-11-14.md)
+
+* [BFC(**B**lock **F**ormatting **C**ontext)的作用及其原理](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context)
+  * [前端精选文摘：BFC 神奇背后的原理](https://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html)
+  * [介绍下 BFC、IFC、GFC 和 FFC](https://muyiy.cn/question/css/73.html)
+
+#### [2019-11-05](./2019-11-05.md)
+
+* [QQ 音乐商业化 Web 团队：前端工程化实践总结（一）](https://www.infoq.cn/article/2gQwRdKPMHjC96jJoVDG)
+* [省市区镇村](https://github.com/modood/Administrative-divisions-of-China)
+
+####[2019-11-04](./2019-11-04.md)
+
+* [跨平台技术演进及 Flutter 未来 | 开发者说·DTalk](https://mp.weixin.qq.com/s/2LDCVNOQ2SXJ5SFVPo00yg)
+
+####[2019-10-31](./2019-10-31.md)
+
+* [【前端可视化】 OpenGL / WebGL 入门和实践](https://mp.weixin.qq.com/s/A2o-ueiBf8dXBYfCY2LIRQ)
+
+* [CSS Display属性的双值写法](https://mp.weixin.qq.com/s/vREgwh-T7RiuQaAqyil0Og)
+* [现代浏览器观察者 Observer API 指南](https://mp.weixin.qq.com/s/I-p-pcfPDhAUKot6pdLSRg)
+* [Chrome Devtools 高级调试指南（新）](https://mp.weixin.qq.com/s/YZFJtvrZzhroBgQJL6U_Og)
 
 ####[2019-10-30](./2019-10-30.md)
 
@@ -22,3 +49,4 @@
 * [JavaScript 工具函数大全](https://juejin.im/post/5da1a04ae51d45783d6122bf) `工具集`
 
   
+
