@@ -1,42 +1,68 @@
-# Resume
+# Introduction
+
+{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method-summary %}
+Get Cakes
+{% endapi-method-summary %}
+
+{% api-method-description %}
+This endpoint allows you to get free cakes.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="string" %}
+ID of the cake to get, for free of course.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authentication" type="string" required=true %}
+Authentication token to track down who is emptying our stocks.
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="recipe" type="string" %}
+The API will do its best to find a cake matching the provided recipe.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="gluten" type="boolean" %}
+Whether the cake should be gluten-free or not.
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Cake successfully retrieved.
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "name": "Cake's name",
+    "recipe": "Cake's recipe name",
+    "cake": "Binary cake"
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+Could not find a cake matching this query.
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+    "message": "Ain't no cake like that."
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 Test desc
-
-### 每日早读-资源池
-
-#### 模板基础
-
-块级元素 -> BFC
-语法语义 -> 
-
-#### 浏览器机制
-
-[x]  [【THE LAST TIME】彻底吃透 JavaScript 执行机制](https://mp.weixin.qq.com/s/qek45SyvT2QK7qCaF6V3Eg)
-
-[x]  [一文搞懂浏览器缓存机制](https://mp.weixin.qq.com/s/OptZnaAhuX8eRnIesRrFwA)
-
-#### 通讯
-
-服务器推送技术
-
-[x]  [JS 服务器推送技术 WebSocket 入门指北](https://mp.weixin.qq.com/s/egYibwYOsczQI5FuZkSdJw)
-
-[x] [WEB验证的过去现在与未来](https://mp.weixin.qq.com/s/-PlSYKTgu9h-bYMknTKNkw)
-
-#### 设计模式
-
-[x]  [「手摸手设计模式系列」享元模式与资源池](https://mp.weixin.qq.com/s/sPVuiUTOvu1KsRwEOhMQ2g)
-
-[x] [奇舞周刊第 321 期： 常见的前端架构风格和案例](https://mp.weixin.qq.com/s/Kxs3CGwnAONN3f8wOoBMqw)
-
-[x] [[源码解读]一文彻底搞懂Events模块](https://mp.weixin.qq.com/s/pXrfMvg1_tXIh8j3Zveiew)
-
-#### 冷知识
-
-[x] [【前端冷知识】如何禁止开发者操作网页上的DOM对象](https://mp.weixin.qq.com/s/Jofm6Xz72N9i9EXii05uHQ)
-
-#### 人文
-
-[x] [华为基本法](https://baike.baidu.com/item/华为基本法)
-
-[x] [任正非文集](https://github.com/ruanyf/free-books/blob/master/docs/任正非文集.epub)
 
